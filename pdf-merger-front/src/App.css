@@ -1,0 +1,56 @@
+.contenedor {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.contenedor h1{
+  color: #ffffff;
+  margin: auto;
+}
+.contenedor input{
+  width : 100%;
+  border: 1px solid #444;
+  padding : 12px;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  cursor:pointer;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+.contenedor p{
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.boton-merge{
+  width: 100%;
+  background-color: #e2001a;
+  color : #ffffff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor:pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.archivo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.botonX{
+  background-color: #2a2a2a;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  color: #ffffff;
+  font-weight: bold;
+}
