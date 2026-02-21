@@ -21,7 +21,7 @@ const handleMerge = async () => {
   // agrega cada archivo al formData con el campo 'pdfs'
   archivos.forEach(archivo => formData.append('pdfs',archivo))
 
-  const response = await axios.post('http://localhost:4000/api/pdf/merge', formData, {
+  const response = await axios.post('sergiolovespdf-production.up.railway.app', formData, {
     responseType: 'blob'  // importante: le dice a axios que espere un archivo binario
   })
 
