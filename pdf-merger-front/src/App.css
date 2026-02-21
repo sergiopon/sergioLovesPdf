@@ -43,6 +43,7 @@
   padding: 10px;
   border-radius: 6px;
   margin-bottom: 8px;
+  
   color: #ffffff;
 }
 
@@ -53,4 +54,49 @@
   margin-bottom: 2px;
   color: #ffffff;
   font-weight: bold;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-family: 'Syne', sans-serif;
+}
+
+.herramientas {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.tarjeta {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  padding: 24px;
+  width: 160px;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tarjeta:hover {
+  background-color: #333;
+}
+
+.tarjeta span {
+  font-size: 2rem;
+}
+
+.tarjeta h2 {
+  font-size: 1rem;
+  margin: 8px 0 4px;
+}
+
+.tarjeta p {
+  font-size: 0.8rem;
+  color: #aaa;
+  background: none;
+  padding: 0;
 }
