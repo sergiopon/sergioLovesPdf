@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "react-router-dom": "^7.13.0"
-  }
+  },
+
+"scripts": {
+  "start": "node index.js"
+}
 }
