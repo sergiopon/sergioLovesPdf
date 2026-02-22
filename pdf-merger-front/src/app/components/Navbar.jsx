@@ -9,7 +9,7 @@ export function Navbar() {
 
   const links = [
     { name: "Home", href: "/" },
-    { name: "Merge PDF", href: "/merge" },
+    { name: "Combinar PDF", href: "/merge" },
   ];
 
   return (

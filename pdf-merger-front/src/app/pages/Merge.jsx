@@ -59,7 +59,7 @@ export function Merge() {
 
   return (
     <div className="max-w-4xl mx-auto space-y-8">
-      <h1 className="text-3xl font-bold text-center">Merge PDF Files</h1>
+      <h1 className="text-3xl font-bold text-center">Combinar PDFs</h1>
       
       <div
         className={cn("border-2 border-dashed rounded-xl p-10 text-center cursor-pointer transition-colors", isDragging ? "border-red-500 bg-red-500/10" : "border-neutral-700 bg-[#2a2a2a]")}
@@ -70,7 +70,7 @@ export function Merge() {
       >
         <input type="file" ref={fileInputRef} className="hidden" multiple accept=".pdf" onChange={(e) => handleFiles(e.target.files)} />
         <Plus className="w-8 h-8 mx-auto text-neutral-400 mb-4" />
-        <p className="text-lg font-medium">Drop PDF files here</p>
+        <p className="text-lg font-medium">Suelta tus PDF aquí</p>
       </div>
 
       <div className="space-y-3">
@@ -88,7 +88,7 @@ export function Merge() {
           disabled={files.length < 2 || isProcessing}
           className="px-8 py-4 bg-red-600 text-white rounded-full font-bold disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {isProcessing ? "Merging..." : "Merge Files"}
+          {isProcessing ? "Combinando..." : "Combinar PDFs"}
         </button>
       </div>
     </div>

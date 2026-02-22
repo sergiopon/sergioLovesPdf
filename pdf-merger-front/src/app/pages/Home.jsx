@@ -6,16 +6,16 @@ export function Home() {
   const tools = [
     {
       id: "merge",
-      title: "Merge PDF",
-      description: "Combine multiple PDF files into one single document in seconds.",
+      title: "Combinar PDF",
+      description: "Combina varios archivos PDF en uno solo de forma rápida y sencilla.",
       icon: Combine,
       color: "bg-red-500",
       href: "/merge",
     },
     {
       id: "compress",
-      title: "Compress PDF",
-      description: "Reduce the file size of your PDF while maintaining quality.",
+      title: "Comprimir PDF",
+      description: "Reduce el tamaño del archivo de tu PDF manteniendo la calidad.",
       icon: Layers,
       color: "bg-blue-500",
       href: "#",
@@ -23,8 +23,8 @@ export function Home() {
     },
     {
       id: "convert",
-      title: "Convert PDF",
-      description: "Convert Word, PowerPoint and Excel files to and from PDF.",
+      title: "Convertir PDF",
+      description: "Convierte archivos de Word, PowerPoint y Excel a PDF y viceversa.",
       icon: FileCheck,
       color: "bg-green-500",
       href: "#",
