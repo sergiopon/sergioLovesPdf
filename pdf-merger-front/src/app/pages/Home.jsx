@@ -39,16 +39,16 @@ export function Home() {
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-6xl font-bold tracking-tighter"
         >
-          Your All-in-One <br />
+          Tu solución <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">
-            PDF Solution
+            Todo en Uno para PDFs
           </span>
         </motion.h1>
         <p className="text-lg md:text-xl text-neutral-400 max-w-2xl mx-auto">
-          Merge, split, compress, and convert PDF files directly in your browser.
+          Combina, Separa, comprime y convierte archivos PDF directamente en tu navegador.
         </p>
         <Link to="/merge" className="inline-flex items-center gap-2 px-8 py-4 bg-red-600 hover:bg-red-700 text-white rounded-full font-semibold transition-all">
-          Start Merging <ArrowRight className="w-5 h-5" />
+          Comenzar a combinar <ArrowRight className="w-5 h-5" />
         </Link>
       </section>
 
