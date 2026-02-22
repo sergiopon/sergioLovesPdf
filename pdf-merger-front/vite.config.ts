@@ -4,6 +4,10 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
+  root: '.',
+  build: {
+    outDir: 'dist',
+  },
   plugins: [
     react(),
     tailwindcss(), // Asegúrate de que este plugin esté aquí
