@@ -1,6 +1,7 @@
 import { ArrowRight, Combine, FileCheck, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+
 export function Home() {
   const tools = [
     {
