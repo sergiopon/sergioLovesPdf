@@ -10,20 +10,18 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.13.5",
     "cors": "^2.8.6",
+    "framer-motion": "^12.34.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^6.30.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  
   "scripts": {
-  
-    "start": "node index.js",
-    "start-react": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": [
